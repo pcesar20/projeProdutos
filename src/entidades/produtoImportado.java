@@ -5,7 +5,7 @@ public class produtoImportado extends produto{
 
     public produtoImportado() {
     }
-
+    
     public produtoImportado(String nome, Double preco, Double precoImportacao) {
         super(nome, preco);
         this.precoImportacao = precoImportacao;
